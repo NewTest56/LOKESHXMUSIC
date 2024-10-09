@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1800))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", -1002120932809))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002295551724))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6258877205))
+OWNER_ID = int(getenv("OWNER_ID", 7099933373))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO", 
-    "https://github.com/WCGKING/LOKESHXMUSIC"
+    "https://github.com/NewTest56/LOKESHXMUSIC"
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BRANDED_WORLD")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BRANDRD_BOT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+_qPchBV5z4VjMjM1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+_qPchBV5z4VjMjM1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -78,10 +78,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/9c3ccd1fe3b776dde6ec5.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/40b79a0c4fb7f1fc5e8d9.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL","https://telegra.ph/file/76140279d4946669952c6.jpg"
+    "PING_IMG_URL","https://telegra.ph/file/40b79a0c4fb7f1fc5e8d9.jpg"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
